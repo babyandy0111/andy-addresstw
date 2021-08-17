@@ -34,13 +34,13 @@ export default {
     }
   },
   watch: {
-    countyValue() {
+    countyValue(val, oldVal) {
       if (this.defaultFirst) {
         this.cityValue = this.cities[0]
       }
       this.handleChange()
     },
-    cityValue() {
+    cityValue(val, oldVal) {
       this.handleChange()
     }
   },

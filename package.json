@@ -1,6 +1,6 @@
 {
   "name": "andy-addresstw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Vue component for select Taiwan county, city and zipcode.",
   "main": "dist/andy-addresstw.common.js",
   "author": "andy <babyandy0111@gmail.com>",
@@ -56,7 +56,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",

@@ -1,13 +1,13 @@
 {
-  "name": "andy-address",
+  "name": "andy-addresstw",
   "version": "0.1.0",
   "description": "A Vue component for select Taiwan county, city and zipcode.",
-  "main": "dist/andy-address.common.js",
+  "main": "dist/andy-addresstw.common.js",
   "author": "andy <babyandy0111@gmail.com>",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name andy-address ./src/components/index.js",
+    "build": "vue-cli-service build --target lib --name andy-addresstw ./src/components/index.js",
     "lint": "vue-cli-service lint",
     "build:doc": "vue-cli-service build ./src/main.js --dest docs --mode development"
   },
@@ -40,6 +40,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "4.14.1",
+    "sass-loader": "8.0.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
